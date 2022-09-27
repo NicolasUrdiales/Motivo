@@ -667,6 +667,10 @@ hr {
     .div-org5 {
         padding-bottom: 85px;
     }
+    .h2-header--org{
+            margin: 0 auto;
+            margin-top: 20px;
+    }
 
     @keyframes cambio {
         0% {
