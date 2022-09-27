@@ -439,7 +439,7 @@ hr {
     border-top: solid #05445E;
     font-family: 'Merriweather', serif;
     color: aliceblue;
-
+    width: 100%;
 }
 
 .div-secciones {
@@ -638,6 +638,7 @@ hr {
 
     .img-cl {
         height: 400px;
+        margin: 100px;
     }
 
 }
@@ -655,8 +656,8 @@ hr {
         margin: 10px 50px;
     }
 
-    .h2-contact {
-        font-size: 50px;
+    .h2-form {
+        font-size: 40px;
     }
 
     .img-org {
@@ -719,6 +720,14 @@ hr {
 
     .img-cl {
         height: 600px;
+        margin-bottom: 100px;
+    }
+    .form{
+        width:100%;
+    }
+    .form-container{
+        margin-top: 300px;
+        
     }
 }
 
@@ -741,5 +750,8 @@ hr {
 
     .h2-contact {
         font-size: 65px;
+    }
+    .img-cl{
+        margin-bottom: 100px;
     }
 }
