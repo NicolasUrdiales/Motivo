@@ -1,0 +1,17 @@
+/*header*/
+.background-nav {
+    background-color: #05445e;
+    font-weight: bold;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .a-nav{
+        color: aliceblue;
+        &:hover{
+            color: #75E6DA;
+            transform: scale(1.2);
+            transition: all 0.3s;
+        }
+        }
+}

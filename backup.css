@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+.background-nav {
+    background-color: #05445E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.a-nav {
+    color: aliceblue;
+}
+
+.a-nav:hover {
+    color: #75E6DA;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+/* carrusel */
+.carrusel {
+    width: 100%;
+    margin-top: 55px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.carrusel ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 10s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.carrusel li {
+    width: 100%;
+    list-style: none;
+}
+
+.carrusel img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+/*btn whatsapp*/
+.btn-wpp {
+    background-color: #18A558;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 25px 10px 25px;
+}
+
+.a-wpp {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.img-wpp {
+    height: 25px;
+    margin-right: 15px;
+}
+
+.a-wpp:hover {
+    color: aliceblue;
+}
+
+.p-wpp {
+    margin-top: 15px;
+}
+
+/*seccion nosotros*/
+.div-nosotros {
+    margin-top: 100px;
+    font-size: 35px;
+    color: #05445E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.img-container {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.h2-container {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.img-nosotros {
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 50px 0 20px;
+}
+
+.icn-link {
+    margin-top: 10px;
+    height: 30px;
+    background-color: #05445E;
+    margin-bottom: 50px;
+}
+
+.icn-link:hover {
+    background-color: #75E6DA;
+}
+
+.p-name {
+    margin: 10px 0 3px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.p-lic {
+    font-size: 15px;
+}
+
+/*seccion servicios*/
+/*cambio organizacional*/
+.div-org {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h2-org {
+    font-size: 35px;
+    color: #FF5C4D;
+}
+
+.h2-header--org {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px 200px 0 200px;
+    padding-top: 40px;
+    font-weight: 900;
+    color: #DF362D;
+    border-top: solid 2px #FF5C4D;
+}
+
+.p-org {
+    color: #FF5C4D;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 20px 500px 0;
+}
+
+.serv-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.div-org1 {
+    height: 280px;
+    width: 20%;
+    background-color: #DF362D;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+.div-org2 {
+    height: 280px;
+    width: 20%;
+    background-color: #FFCD58;
+    color: aliceblue;
+}
+
+.div-org3 {
+    height: 280px;
+    width: 20%;
+    background-color: #05445E;
+    color: aliceblue;
+}
+
+.div-org4 {
+    height: 280px;
+    width: 20%;
+    background-color: #1D741B;
+    color: aliceblue;
+}
+
+.div-org5 {
+    height: 280px;
+    width: 20%;
+    background-color: #75E6DA;
+    color: aliceblue;
+}
+
+/*Animacion busqueda y seleccion*/
+.div-org1:hover>.img-org1 {
+    margin-top: 5%;
+    transition: all 2s;
+}
+
+.div-org1:hover>.p-ByS {
+    margin-top: 10px;
+    transition: all 2s;
+    display: initial;
+}
+
+.p-ByS {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Animacion evaluacion de potencial*/
+.p-evp {
+    display: none;
+
+}
+
+.div-org2:hover>.img-org2 {
+    margin-top: 3%;
+    transition: all 2s ease-out;
+}
+
+.div-org2:hover>.p-evp {
+    display: initial;
+    transition: all 2s ease-out;
+}
+
+/*Animacion psicotecnico*/
+.p-psc {
+    display: none;
+}
+
+.div-org3:hover>.img-org3 {
+    margin-top: 3%;
+    transition: all 2s;
+}
+
+.div-org3:hover>.p-psc {
+    display: initial;
+    transition: all 2s;
+}
+
+/*Animacion Talent map*/
+.p-tm {
+    display: none;
+}
+
+.div-org4:hover>.img-org4 {
+    margin-top: 0;
+    transition: all 2s;
+}
+
+.div-org4:hover>.p-tm {
+    display: initial;
+    transition: all 2s;
+}
+
+/*Animacion clima y cultura organizacional*/
+.p-cco {
+    display: none;
+}
+
+.div-org5:hover>.img-org5 {
+    margin-top: 5%;
+    transition: all 2s;
+}
+
+.div-org5:hover>.p-cco {
+    display: initial;
+    transition: all 2s;
+}
+
+.img-org1,
+.img-org2,
+.img-org3,
+.img-org4,
+.img-org5 {
+    margin-top: 25%;
+}
+
+.img-org3 {
+    margin-left: 30px;
+}
+
+/*cambio personal*/
+.div-personal {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px;
+}
+
+.h2-personal {
+    font-size: 40px;
+    color: #FFCD58;
+}
+
+.p-personal {
+    margin: 20px 500px 0;
+    color: #FFCD58;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*seccion contacto*/
+.form-container {
+    background-image: url(../imagenes/Contacto2.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+    margin-top: 200px;
+
+}
+
+.h2-form {
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    max-width: 800px;
+
+}
+
+.form--message {
+    padding-bottom: 200px;
+}
+
+.btn-form {
+    width: 100%;
+    color: #FF5C4D;
+    background-color: #FFCD58;
+    border: solid 1px #FF5C4D;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: 0%;
+    }
+
+    30% {
+        margin-left: -150%;
+    }
+
+    75% {
+        margin-left: -150%;
+    }
+
+    80% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/*seccion clientes*/
+hr {
+    color: #05445E;
+    margin: 50px 200px;
+}
+
+.h2-cl {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #1D741B;
+    text-align: center;
+}
+
+.div-cl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-cl {
+    color: #1D741B;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.img-cl {
+    width: 80%;
+    height: 800px;
+    margin-top: 70px;
+}
+
+/*footer de la pagina*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #05445E;
+    border-top: solid #05445E;
+    font-family: 'Merriweather', serif;
+    color: aliceblue;
+    width: 100%;
+}
+
+.div-secciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.a-footer:hover {
+    color: blue;
+}
+
+.a-footer {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.h2-footer {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.h3-footer {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.h4-footer {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 450px) {
+    .carrusel {
+        height: 160px;
+    }
+
+    .carrusel img {
+        width: 90%;
+        height: 160px;
+    }
+
+    .div-nosotros {
+        font-size: 12px;
+        margin-top: 5px;
+        margin: 0px 5px;
+    }
+
+    .h2-container {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .img-nosotros {
+        margin-top: 5px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .p-name {
+        font-size: 22px;
+        margin-top: 0;
+    }
+
+    .h2-org {
+        font-size: 22px;
+    }
+
+    .h2-header--org {
+        font-size: 22px;
+        margin: 10px 0 auto;
+        align-items: center;
+    }
+
+    .p-org {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+
+    .p-personal {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .h2-form {
+        font-size: 22px;
+    }
+
+    .serv-container {
+        display: grid;
+        grid-template-columns: 1;
+        grid-auto-rows: 300px;
+        padding: 0;
+    }
+
+    .div-org1,
+    .div-org2,
+    .div-org3,
+    .div-org4,
+    .div-org5 {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .img-org1,
+    .img-org2,
+    .img-org3,
+    .img-org4,
+    .img-org5 {
+        margin-top: 25%;
+    }
+
+    .h2-personal {
+        font-size: 20px;
+    }
+
+    .p-personal {
+        margin: 30px 30px 5px;
+        font-size: 15px;
+    }
+
+    .p-ByS,
+    .p-evp,
+    .p-psc,
+    .p-tm,
+    .p-cco {
+        font-size: 12px;
+    }
+
+    .h2-footer {
+        font-size: 20px;
+    }
+
+    .a-footer {
+        font-size: 12px;
+    }
+
+    .h3-footer {
+        font-size: 18px;
+    }
+
+    .h4-footer {
+        font-size: 15px;
+    }
+
+    .btn-wpp {
+        bottom: 20px;
+        right: 0px;
+        padding: 6px 10px 6px 10px;
+    }
+
+    .background-nav {
+        padding-left: 0;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    @keyframes cambio {
+        0% {
+            margin-left: 0;
+        }
+
+        25% {
+            margin-left: 0%;
+        }
+
+        30% {
+            margin-left: -150%;
+        }
+
+        75% {
+            margin-left: -150%;
+        }
+
+        80% {
+            margin-left: -285%;
+        }
+
+        100% {
+            margin-left: -285%;
+        }
+    }
+
+    .h2-cl {
+        font-size: 35px;
+    }
+
+    .p-cl {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .img-cl {
+        height: 400px;
+        margin: 100px;
+    }
+    .background-nav{
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:975px) {
+    .p-personal {
+        margin: 10px 50px;
+    }
+
+    .div-contact {
+        margin-top: 50px;
+    }
+
+    .p-org {
+        margin: 10px 50px;
+    }
+
+    .h2-form {
+        font-size: 40px;
+    }
+
+    .img-org {
+        display: none;
+    }
+
+    .p-ByS,
+    .p-evp,
+    .p-psc,
+    .p-tm,
+    .p-cco {
+        font-size: 10px;
+    }
+
+    .div-org1,
+    .div-org2,
+    .div-org3,
+    .div-org4,
+    .div-org5 {
+        padding-bottom: 85px;
+    }
+    .h2-header--org{
+            margin: 0 auto;
+            margin-top: 20px;
+    }
+
+    @keyframes cambio {
+        0% {
+            margin-left: 0;
+        }
+
+        25% {
+            margin-left: 0%;
+        }
+
+        30% {
+            margin-left: -150%;
+        }
+
+        75% {
+            margin-left: -150%;
+        }
+
+        80% {
+            margin-left: -285%;
+        }
+
+        100% {
+            margin-left: -285%;
+        }
+    }
+
+    .h2-cl {
+        font-size: 40px;
+    }
+
+    .p-cl {
+        font-size: 20px;
+    }
+
+    .img-cl {
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    .form{
+        width:100%;
+    }
+    .form-container{
+        margin-top: 300px;
+        
+    }
+    .background-nav{
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width:976px) and (max-width:1200px) {
+    .p-org {
+        margin: 10px 100px 0;
+    }
+
+    .p-personal {
+        margin: 10px 100px 0;
+    }
+
+    .div-org1,
+    .div-org2,
+    .div-org3,
+    .div-org4,
+    .div-org5 {
+        padding-bottom: 85px;
+    }
+
+    .h2-contact {
+        font-size: 65px;
+    }
+    .img-cl{
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,18 @@
+/*footer*/
+.footer{
+    background: #05445E;
+    border-top: solid #05445E;
+    color: aliceblue;
+    width: 100%;
+    .div-secciones{
+        display: flex;
+        flex-direction: column;
+        .a-footer{
+            color: aliceblue;
+            text-decoration: none;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}

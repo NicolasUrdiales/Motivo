@@ -1,0 +1,23 @@
+{
+  "name": "motivo-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasUrdiales/Motivo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasUrdiales/Motivo/issues"
+  },
+  "homepage": "https://github.com/NicolasUrdiales/Motivo#readme",
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "sass": "^1.55.0"
+  }
+}

@@ -1,0 +1,153 @@
+/*Seccion servicios*/
+.h2-header--org{
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 200px 0 200px;
+    padding-top: 40px;
+    font-weight: 900;
+    color: #05445E;
+    border-top: solid 2px #05445E;
+}
+/*cambio organizacional*/
+.div-org{
+    text-align: center;
+    margin-top: 50px;
+    .h2-org{
+        font-size: 35px;
+        color: #05445E;
+    }
+    .p-org{
+        color: #05445E;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        margin: 20px 500px 0;
+    }
+    .serv-container{
+        display: flex;
+        margin-top: 50px;
+        .div-org1{
+            height: 280px;
+            width: 20%;
+            background-color: #DF362D;
+            color: aliceblue;
+            text-align: center;
+            .p-ByS{
+                display: none;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .img-org1{
+                margin-top: 25%;
+            }
+            &:hover>.img-org1{
+                margin-top: 5%;
+                transition: all 2s;
+            }
+            &:hover>.p-ByS{
+                margin-top: 10px;
+                transition: all 2s;
+                display: initial;
+            }
+        }
+        
+        .div-org2{
+            height: 280px;
+            width: 20%;
+            background-color: #FFCD58;
+            color: aliceblue;
+            .img-org2{
+                margin-top: 25%; 
+            }
+            .p-evp{
+                display: none;
+            }
+            &:hover>.p-evp{
+                display: initial;
+                transition: all 2s;
+            }
+            &:hover>.img-org2{
+                margin-top: 3%;
+                transition: all 2s;
+            }
+        }
+        .div-org3{
+            height: 280px;
+            width: 20%;
+            background-color: #05445E;
+            color: aliceblue;
+            .p-psc{
+                display: none;
+            }
+            .img-org3{
+                margin-top: 25%;  
+            }
+            &:hover>.img-org3{
+                margin-top: 3%;
+                transition: all 2s;  
+            }
+            &:hover>.p-psc{
+                display: initial;
+                transition: all 2s;
+            }
+        }
+        .div-org4{
+            height: 280px;
+            width: 20%;
+            background-color: #1D741B;
+            color: aliceblue;
+            .img-org4{
+                margin-top: 25%; 
+            }
+            .p-tm{
+                display: none;  
+            }
+            &:hover>.img-org4{
+                margin-top: 0;
+                transition: all 2s; 
+            }
+            &:hover>.p-tm{
+                display: initial;
+                transition: all 2s;
+            }
+        }
+        .div-org5{
+            height: 280px;
+            width: 20%;
+            background-color: #75E6DA;
+            color: aliceblue;
+            .p-cco{
+                display: none;
+            }
+            .img-org5{
+                margin-top: 25%;    
+            }
+            &:hover>.img-org5{
+                margin-top: 5%;
+                transition: all 2s;
+            }
+            &:hover>.p-cco{
+                display: initial;
+                transition: all 2s;
+            }
+        }
+    }
+
+}
+/*cambio personal*/
+.div-personal{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .h2-personal{
+        font-size: 40px;
+        color: #05445E;
+    }
+    .p-personal{
+        margin: 20px 500px 0;
+        color: #05445E;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+

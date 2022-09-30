@@ -1,0 +1,28 @@
+/*seccion clientes*/
+hr{
+    color: #05445E;
+    margin: 50px 200px;
+}
+.h2-cl{
+    font-size: 60px;
+    font-weight: bold;
+    color: #05445E;
+    text-align: center;
+}
+.div-cl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .p-cl{
+        color: #05445E;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 100px; 
+    }
+    .img-cl{
+        width: 80%;
+        height: 800px;
+        margin-top: 70px;
+    }
+}
