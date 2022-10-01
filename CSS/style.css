@@ -105,20 +105,25 @@ body {
   }
 }
 /*seccion nosotros*/
-.div-nosotros {
+.h2-container {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #05445E;
   margin-top: 100px;
+}
+
+.div-nosotros {
   font-size: 35px;
   color: #05445E;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .div-nosotros .img-container {
   align-items: center;
   margin-top: 50px;
-}
-.div-nosotros .img-container .h2-container {
-  font-size: 50px;
-  font-weight: bold;
 }
 .div-nosotros .img-container .img-nosotros {
   height: 200px;
@@ -143,6 +148,60 @@ body {
 .div-nosotros .img-container .icn-link:hover {
   background-color: #75E6DA;
 }
+.div-nosotros .img-container2 {
+  align-items: center;
+  margin-top: 50px;
+}
+.div-nosotros .img-container2 .img-nosotros {
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+.div-nosotros .img-container2 .p-name {
+  margin: 10px 0 3px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.div-nosotros .img-container2 .p-lic {
+  font-size: 15px;
+}
+.div-nosotros .img-container2 .icn-link {
+  margin-top: 10px;
+  height: 30px;
+  background-color: #05445E;
+  margin-bottom: 50px;
+}
+.div-nosotros .img-container2 .icn-link:hover {
+  background-color: #75E6DA;
+}
+.div-nosotros .img-container3 {
+  align-items: center;
+  margin-top: 50px;
+}
+.div-nosotros .img-container3 .img-nosotros {
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+.div-nosotros .img-container3 .p-name {
+  margin: 10px 0 3px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.div-nosotros .img-container3 .p-lic {
+  font-size: 15px;
+}
+.div-nosotros .img-container3 .icn-link {
+  margin-top: 10px;
+  height: 30px;
+  background-color: #05445E;
+  margin-bottom: 50px;
+}
+.div-nosotros .img-container3 .icn-link:hover {
+  background-color: #75E6DA;
+}
 
 /*Seccion servicios*/
 .h2-header--org {
@@ -163,11 +222,11 @@ body {
 .div-org .h2-org {
   font-size: 35px;
   color: #05445E;
+  font-weight: bold;
 }
 .div-org .p-org {
   color: #05445E;
   font-size: 20px;
-  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   margin: 20px 500px 0;
 }
@@ -289,6 +348,7 @@ body {
 .div-personal .h2-personal {
   font-size: 40px;
   color: #05445E;
+  font-weight: bold;
 }
 .div-personal .p-personal {
   margin: 20px 500px 0;
@@ -338,23 +398,45 @@ hr {
   height: 600px;
   object-fit: cover;
   padding-bottom: 50px;
-  margin-top: 200px;
+  margin-top: 100px;
+  color: aliceblue;
 }
 .contacto-container .div-contacto {
-  color: aliceblue;
-  margin: 100px auto;
+  margin: auto;
+  border-right: orange solid 1px;
+  padding-right: 300px;
 }
 .contacto-container .div-contacto .h2-contacto {
   font-size: 60px;
   font-weight: 900;
 }
 .contacto-container .div-contacto .h3-contacto {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
 }
 .contacto-container .div-contacto .h4-contacto {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
+}
+.contacto-container .redes-container {
+  display: flex;
+  margin-top: 140px;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto-container .redes-container .h2-redes {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.contacto-container .redes-container .div-redes {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 60px;
 }
 
 /*footer*/
