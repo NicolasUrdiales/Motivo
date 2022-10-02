@@ -370,22 +370,26 @@ hr {
   text-align: center;
 }
 
-.div-cl {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.progress {
+  margin-top: 60px;
 }
-.div-cl .p-cl {
-  color: #05445E;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 100px;
+.progress .bg-progress1 {
+  background-color: green;
 }
-.div-cl .img-cl {
-  width: 80%;
-  height: 800px;
-  margin-top: 70px;
+.progress .bg-progress2 {
+  background-color: red;
+}
+.progress .bg-progress3 {
+  background-color: aqua;
+}
+.progress .bg-progress4 {
+  background-color: yellow;
+}
+.progress .bg-progess5 {
+  background-color: purple;
+}
+.progress .bg-progress6 {
+  background-color: #05445E;
 }
 
 /*seccion contacto*/

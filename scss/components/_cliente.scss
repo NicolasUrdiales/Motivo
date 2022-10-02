@@ -9,20 +9,24 @@ hr{
     color: #05445E;
     text-align: center;
 }
-.div-cl{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .p-cl{
-        color: #05445E;
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-        margin: 0 100px; 
+.progress{
+    margin-top: 60px;
+    .bg-progress1{
+        background-color: green;
     }
-    .img-cl{
-        width: 80%;
-        height: 800px;
-        margin-top: 70px;
+    .bg-progress2{
+        background-color: red;
+    }
+    .bg-progress3{
+        background-color: aqua;
+    }
+    .bg-progress4{
+        background-color: yellow;
+    }
+    .bg-progess5{
+        background-color: purple;
+    }
+    .bg-progress6{
+        background-color: #05445E;
     }
 }
