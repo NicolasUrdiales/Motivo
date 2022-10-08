@@ -11,6 +11,113 @@
         font-size: 25px;
         margin: 25px 75px;
     }
+    @media screen and (min-width:451px) and (max-width:650px){
+        font-size: 35px;
+        margin: 10px 50px 0 50px;
+    }
+}
+.div-personal{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+    .h2-personal{
+        font-size: 40px;
+        color: #1D741B;
+        font-weight: bold;
+        @media screen and (max-width:450px){
+          font-size: 20px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+            margin: 0 75px 0 75px;
+        }
+    }
+    .p-personal{
+        margin: 20px 100px 0;
+        color: #1D741B;
+        font-weight: bold;
+        font-size: 20px;
+        @media screen and (max-width:450px){
+            font-size: 14px;
+            margin: 15px 10px 15px 10px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 16px;
+            margin: 10px 20px 10px 20px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
+            margin: 10px 50px;
+            font-size: 25px;
+            font-weight: 10px;
+        }
+        @media screen and (min-width:976px) and (max-width:1200px){
+            margin: 10px 100px 0;
+        }
+    }
+    .div-b{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 20px;
+        margin: 50px 50px;
+        background-color: #94C973;
+        gap: 30px;
+        padding: 30px;
+        border:solid 1px  #1D741B;
+        .p-b{
+            font-size: 18px;
+            text-align: center;
+            margin-top: 15px;
+            color: #1D741B;
+            font-weight: 900;
+            @media screen and (max-width:450px){
+                font-size: 12px;
+                margin: 5px 15px 5px 15px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin: 5px 15px 5px 15px;
+            }
+        }
+        .p-b1{
+            font-size: 16px;
+            margin-top: 40px;
+            color: #1D741B;
+            font-weight: bold; 
+            @media screen and (max-width:450px){
+                font-size: 12px;
+                margin: 5px 10px 5px 10px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin: 5px 10px 5px 10px;
+            }
+        }
+        .img-byg{
+            height: 25px;
+        }
+        @media screen and (max-width:450px){
+            margin: 10px 1px;
+            padding: 20px;
+            grid-template-columns: repeat(1,1fr);
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            margin: 10px 1px;
+            padding: 20px;
+            grid-template-columns: repeat(1,1fr);
+        }
+        
+    }
+    @media screen and (max-width:450px){
+        margin: 20px 10px;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        margin: 30px 15px;
+    }
+    @media screen and (min-width:651px) and (max-width:975px){
+        margin: 40px 20px;
+    }
+    @media screen and (min-width:976px) and (max-width:1200px){
+        margin: 50px 25px;
+    }
 }
 /*cambio organizacional*/
 .div-org{
@@ -22,7 +129,11 @@
         color: #05445E;
         font-weight: bold;
         @media screen and (max-width:450px){
-            font-size: 20px;      
+            font-size: 16px;      
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+            margin: 0 75px 0 75px;
         }
     }
     .p-org{
@@ -34,7 +145,11 @@
             font-size: 14px;
             margin: 10px 20px 10px 20px;
         }
-        @media screen and (min-width:451px) and (max-width:975px){
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 18px;
+            margin: 20px 10px 10px 10px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
             margin: 10px 50px;
             font-size: 25px;
         }
@@ -46,6 +161,12 @@
         display: flex;
         margin-top: 50px;
         @media screen and (max-width:450px){
+            display: grid;
+            grid-template-columns: 1;
+            grid-auto-rows: 300px;
+            padding: 0;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
             display: grid;
             grid-template-columns: 1;
             grid-auto-rows: 300px;
@@ -65,7 +186,10 @@
                 @media screen and (max-width:450px){
                     font-size: 14px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     font-size: 12px;
                 }
                 @media only screen and (min-width:976px) and (max-width:1200px){
@@ -78,9 +202,13 @@
                     height: 75px;
                     width: 75px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 15%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     margin-top: 70%;
                 }
+                
             }
             &:hover>.img-org1{
                 margin-top: 5%;
@@ -98,7 +226,13 @@
                 padding: 0;
                 padding-bottom: 20px;    
             }
-            @media screen and (min-width:451px) and (max-width:975px){
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
                 padding-bottom: 360px;
             }
             @media only screen and (min-width:976px) and (max-width:1200px){
@@ -118,7 +252,10 @@
                     height: 75px;
                     width: 75px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 15%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     margin-top: 70%;
                 }
             }
@@ -127,7 +264,10 @@
                 @media screen and (max-width:450px){
                     font-size: 14px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media only screen and (min-width:651px) and (max-width:975px){
                     font-size: 12px;
                 }
                 @media only screen and (min-width:976px) and (max-width:1200px){
@@ -148,7 +288,13 @@
                 padding: 0;
                 padding-bottom: 20px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
                 padding-bottom: 360px;
             }
             @media only screen and (min-width:976px) and (max-width:1200px){
@@ -165,7 +311,10 @@
                 @media screen and (max-width:450px){
                     font-size: 14px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 12px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     font-size: 12px;
                 }
                 @media only screen and (min-width:976px) and (max-width:1200px){
@@ -178,7 +327,10 @@
                     height: 75px;
                     width: 75px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     margin-top: 70%;
                 }
             }
@@ -196,7 +348,13 @@
                 padding: 0;
                 padding-bottom: 20px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
                 padding-bottom: 360px;
             }
             @media only screen and (min-width:976px) and (max-width:1200px){
@@ -213,7 +371,10 @@
                 @media screen and (max-width:450px){
                     font-size: 14px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px; 
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     font-size: 12px;
                 }
                 @media only screen and (min-width:976px) and (max-width:1200px){
@@ -226,7 +387,10 @@
                     height: 75px;
                     width: 75px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     margin-top: 70%;
                 }
             }
@@ -244,7 +408,13 @@
                 padding: 0;
                 padding-bottom: 20px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
                 padding-bottom: 360px;
             }
             @media only screen and (min-width:976px) and (max-width:1200px){
@@ -262,7 +432,10 @@
                 @media screen and (max-width:450px){
                     font-size: 14px;
                 }
-                @media screen and (min-width:451px) and (max-width:975px){
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     font-size: 12px;
                 }
                 @media only screen and (min-width:976px) and (max-width:1200px){
@@ -274,8 +447,11 @@
                 @media screen and (max-width:450px){
                     height: 75px;
                     width: 75px;
-                } 
-                @media screen and (min-width:451px) and (max-width:975px){
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
                     margin-top: 70%;
                 }
             }
@@ -293,75 +469,26 @@
         padding: 0;
         padding-bottom: 20px;
         } 
-        @media screen and (min-width:451px) and (max-width:975px){
+        @media screen and (min-width:451px) and (max-width:650px){
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            padding-bottom: 20px;  
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
             padding-bottom: 360px;
         }
-        @media only screen and (min-width:976px) and (max-width:1200px){
+        @media screen and (min-width:976px) and (max-width:1200px){
             padding-bottom: 310px;
         }
     }
 }
     @media screen and (max-width:450px){
-        margin-top: 5px;
+        margin-top: 0;
     }
 }
 /*cambio personal*/
-.div-personal{
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    
-    .h2-personal{
-        font-size: 40px;
-        color: #1D741B;
-        font-weight: bold;
-        @media screen and (max-width:450px){
-            font-size: 20px;  
-        }
-    }
-    .p-personal{
-        margin: 20px 100px 0;
-        color: #1D741B;
-        font-weight: bold;
-        font-size: 20px;
-        @media screen and (max-width:450px){
-            font-size: 14px;
-            margin: 15px 20px 5px 20px;
-        }
-        @media screen and (min-width:451px) and (max-width:975px){
-            margin: 10px 50px;
-            font-size: 25px;
-        }
-        @media only screen and (min-width:976px) and (max-width:1200px){
-            margin: 10px 100px 0;
-        }
-    }
-    .div-b{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding-left: 20px;
-        margin: 50px 50px;
-        background-color: #94C973;
-        gap: 30px;
-        padding: 30px;
-        border:solid 1px  #1D741B;
-        .p-b{
-            font-size: 18px;
-            text-align: center;
-            margin-top: 15px;
-            color: #1D741B;
-            font-weight: 900;
-        }
-        .p-b1{
-            font-size: 16px;
-            margin-top: 40px;
-            color: #1D741B;
-            font-weight: bold; 
-        }
-    }
-    
 
-}
 /*desarrolo web y marketing*/
 .dym{
     display: flex;
@@ -377,12 +504,19 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        
         h4{
             color: aliceblue;
             margin-top: 10px;
+            @media screen and (max-width:450px) {
+                font-size: 16px;
+            }
         }
         .img-m{
             margin-top: 25%;
+            @media screen and (max-width:450px) {
+                height: 60px;
+            }
         }
         .p-m{
             display: none;
@@ -391,6 +525,9 @@
             margin-left: 20px;
             margin-right: 20px;
             margin-top: 20px;
+            @media screen and (max-width:450px) {
+              font-size: 11px;
+            }
         }
         &:hover>.img-m{
             margin-top: 15%;
@@ -403,6 +540,15 @@
             display: initial;
             transition: all 2s;
         }
+        @media screen and (max-width:450px) {
+            height: 250px;
+            width: 250px;
+            margin-bottom: 15px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+           
+            margin-bottom: 25px;
+        } 
     }
     .div-d{
         height: 300px;
@@ -416,9 +562,15 @@
         h4{
             color: aliceblue;
             margin-top: 10px;
+            @media screen and (max-width:450px) {
+                font-size: 16px;
+            }
         }
         .img-d{
             margin-top: 25%;
+            @media screen and (max-width:450px) {
+                height: 60px;
+            }
         }
         .p-d{
             display: none;
@@ -426,6 +578,9 @@
             margin: 20px 20px 0 20px;
             color: aliceblue;
             font-weight: 700;
+            @media screen and (max-width:450px) {
+                font-size: 11px;
+            }
         }
         &:hover>h4{
             display: none;
@@ -438,5 +593,18 @@
             display: initial;
             transition: all 2s;
         }
+        @media screen and (max-width:450px) {
+            height: 250px;
+            width: 250px;
+            margin-bottom: 15px;
+        }
+    }
+    @media screen and (max-width:450px){
+        flex-direction: column;
+        margin: 50px;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        flex-direction: column;
+        margin: 50px;
     }
 }

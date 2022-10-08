@@ -4,6 +4,8 @@
     border-top: solid #05445E;
     color: aliceblue;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     .div-secciones{
         display: flex;
         flex-direction: column;
@@ -16,17 +18,29 @@
             @media screen and (max-width:450px){
                 font-size: 15px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
-                font-size: 20px;
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 15px;
             }
         }
     }
     .h2-footer{
         @media screen and (max-width:450px){
-        font-size: 20px;
+        font-size: 15px;
         }
-        @media screen and (min-width:451px) and (max-width:975px){
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
             font-size: 30px;
+        }
+    }
+    .f-dym{
+        margin: 0 auto;
+        h5{
+            margin-top: 20px;
+        }
+        h6{
+            margin-top: 20px;
         }
     }
 }

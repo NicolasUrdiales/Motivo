@@ -19,9 +19,12 @@
             font-size: 60px;
             font-weight: 900;
             @media screen and (max-width:450px){
-                font-size: 30px;
+                font-size: 25px;
             }
             @media screen and (min-width:451px) and (max-width:975px){
+                font-size: 30px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
                 font-size: 35px;
             }
         }
@@ -32,8 +35,8 @@
             @media screen and (max-width:450px){
                 font-size: 20px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
-                font-size:  30px;
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size:25px;
             }
         }
         .h4-contacto{
@@ -43,14 +46,17 @@
             @media screen and (max-width:450px){
                 font-size: 20px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
-                font-size:  25px;
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size:  20px;
             }
         }
         @media screen and (max-width:450px){
             padding-right: 50px;
         }
-        @media screen and (min-width:451px) and (max-width:975px){
+        @media screen and (min-width:451px) and (max-width:650px){
+            padding-right: 60px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
             padding-right: 200px;
         }
     
@@ -65,10 +71,11 @@
             font-weight: bold;
             text-align: center;
             @media screen and (max-width:450px){
-                font-size: 30px;
+                font-size: 25px;
             }
-            @media screen and (min-width:451px) and (max-width:975px){
-                font-size: 35px;
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin-top: 70px;
+                font-size: 30px;
             }
         }
         .div-redes{
@@ -87,11 +94,15 @@
             @media screen and (max-width:450px){
                 height: 25px;
             }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 35px;
+            }
         }
         @media screen and (max-width:450px){
             margin-top: 60px;
         }
-        @media screen and (min-width:451px) and (max-width:975px){
+        @media screen and (min-width:451px) and (max-width:650px){
+            height: 15px;
            margin-top: 6px;
         }
     }
@@ -99,7 +110,7 @@
         height: 330px;
         padding-bottom: 0;
     }
-    @media screen and (min-width:451px) and (max-width:975px){
+    @media screen and (min-width:451px) and (max-width:650px){
         height: 425px;
     }
 }
