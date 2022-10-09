@@ -36,11 +36,33 @@
     }
     .f-dym{
         margin: 0 auto;
+        h4{
+            @media screen and (max-width:450px){
+                font-size: 15px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 20px;
+            }
+        }
         h5{
             margin-top: 20px;
+            @media screen and (max-width:450px){
+                font-size: 12px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 16px;
+            }
         }
         h6{
             margin-top: 20px;
+            
+            @media screen and (max-width:450px){
+                font-size: 12px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 16px;
+            }
         }
+
     }
 }
