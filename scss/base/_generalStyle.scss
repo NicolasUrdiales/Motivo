@@ -19,11 +19,6 @@ body{
     bottom: 20px;
     right: 20px;
     padding: 10px 25px 10px 25px;
-    @media screen and (max-width:450px){
-        bottom: 20px;
-        right: 0px;
-        padding: 4px 10px 4px 10px;
-    }
     .a-wpp{
         display: flex;
         align-items: center;
@@ -42,5 +37,9 @@ body{
         .p-wpp{
             margin-top: 15px;
         }
+
+    }
+    @media screen and (max-width:450px){
+        display: none;
     }
 }

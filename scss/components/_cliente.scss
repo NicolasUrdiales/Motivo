@@ -17,25 +17,24 @@
         margin: 10px 50px 0 50px;
     }
 }
-.progress{
-    margin-top: 60px;
-    .bg-progress1{
-        background-color: green;
+.slider{
+    height: 533px;
+    width: 1000px;
+    margin: 60px auto;
+    img{
+        height: 533px;
+        width: 1000px;
+       @media screen and (max-width:450px){
+            height: 275px;
+            width: 100%;
+        }
     }
-    .bg-progress2{
-        background-color: red;
+    @media screen and (max-width:450px){
+        height: 275px;
+        width: 100%;
     }
-    .bg-progress3{
-        background-color: aqua;
-    }
-    .bg-progress4{
-        background-color: yellow;
-    }
-    .bg-progess5{
-        background-color: purple;
-    }
-    .bg-progress6{
-        background-color: #05445E;
-    }
-   
+    @media screen and (min-width:451px) and (max-width:975px){
+    width: 100%;
+    height: 500px;
+}
 }

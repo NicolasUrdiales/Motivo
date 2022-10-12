@@ -16,6 +16,11 @@
         margin: 10px 50px 0 50px;
     }
 }
+.img-servicios{
+    @media screen and (max-width:450px) {
+        height: 200px;
+    }
+}
 .div-personal{
     text-align: center;
     margin-top: 200px;
