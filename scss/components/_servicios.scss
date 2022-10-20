@@ -7,19 +7,10 @@
     font-weight: 900;
     color: #05445E;
     border-top: solid 2px #05445E;
-    @media screen and (max-width:450px){
-        font-size: 25px;
-        margin: 25px 75px;
-    }
-    @media screen and (min-width:451px) and (max-width:650px){
-        font-size: 35px;
-        margin: 10px 50px 0 50px;
-    }
 }
-.img-servicios{
-    @media screen and (max-width:450px) {
-        height: 200px;
-    }
+.img-servicios {
+    height: 284px;
+    width: 100%;
 }
 .div-personal{
     text-align: center;
@@ -31,35 +22,18 @@
         color: #1D741B;
         font-weight: bold;
         margin-top: 100px;
-        @media screen and (max-width:450px){
-          font-size: 20px;
-          margin-top: 50px;
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            font-size: 25px;
-            margin: 100px 75px 0 75px;
-        }
     }
     .p-personal{
         margin: 20px 100px 0;
         color: #1D741B;
         font-weight: bold;
         font-size: 20px;
-        @media screen and (max-width:450px){
-            font-size: 14px;
-            margin: 15px 10px 15px 10px;
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            font-size: 16px;
-            margin: 10px 20px 10px 20px;
-        }
-        @media screen and (min-width:651px) and (max-width:975px){
-            margin: 10px 50px;
-            font-size: 25px;
-            font-weight: 10px;
-        }
-        @media screen and (min-width:976px) and (max-width:1200px){
-            margin: 10px 100px 0;
+    }
+    .div-img--bienestar{
+        .img-bienestar{
+            margin-top: 50px;
+            width: 100%;
+            height: 400px;
         }
     }
     .div-b{
@@ -77,108 +51,36 @@
             margin-top: 15px;
             color: #1D741B;
             font-weight: 900;
-            @media screen and (max-width:450px){
-                font-size: 12px;
-                margin: 5px 15px 5px 15px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                margin: 5px 15px 5px 15px;
-            }
         }
         .p-b1{
             font-size: 16px;
             margin-top: 40px;
             color: #1D741B;
             font-weight: bold; 
-            @media screen and (max-width:450px){
-                font-size: 12px;
-                margin: 5px 10px 5px 10px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                margin: 5px 10px 5px 10px;
-            }
         }
         .img-byg{
             height: 25px;
-        }
-        @media screen and (max-width:450px){
-            margin: 10px 1px;
-            padding: 20px;
-            grid-template-columns: repeat(1,1fr);
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            margin: 10px 1px;
-            padding: 20px;
-            grid-template-columns: repeat(1,1fr);
-        }
-        
-    }
-    @media screen and (max-width:450px){
-        margin: 20px 10px;
-    }
-    @media screen and (min-width:451px) and (max-width:650px){
-        margin: 30px 15px;
-    }
-    @media screen and (min-width:651px) and (max-width:975px){
-        margin: 40px 20px;
-    }
-    @media screen and (min-width:976px) and (max-width:1200px){
-        margin: 50px 25px;
+        }      
     }
 }
 /*cambio organizacional*/
 .div-org{
     text-align: center;
     margin-top: 50px;
-   
     .h2-org{
         font-size: 35px;
         color: #05445E;
         font-weight: bold;
-        @media screen and (max-width:450px){
-            font-size: 16px;      
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            font-size: 25px;
-            margin: 0 75px 0 75px;
-        }
     }
     .p-org{
         color: #05445E;
         font-size: 20px;
         font-weight: bold;
         margin: 20px 500px 0;
-        @media screen and (max-width:450px){
-            font-size: 14px;
-            margin: 10px 20px 10px 20px;
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            font-size: 18px;
-            margin: 20px 10px 10px 10px;
-        }
-        @media screen and (min-width:651px) and (max-width:975px){
-            margin: 10px 50px;
-            font-size: 25px;
-        }
-        @media only screen and (min-width:976px) and (max-width:1200px){
-            margin: 10px 100px 0;
-        }
     }
     .serv-container{
         display: flex;
         margin-top: 50px;
-        @media screen and (max-width:450px){
-            display: grid;
-            grid-template-columns: 1;
-            grid-auto-rows: 300px;
-            padding: 0;
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-            display: grid;
-            grid-template-columns: 1;
-            grid-auto-rows: 300px;
-            padding: 0;
-        }
         .div-org1{
             height: 280px;
             width: 20%;
@@ -190,96 +92,30 @@
                 display: none;
                 text-align: center;
                 margin-top: 20px;
-                @media screen and (max-width:450px){
-                    font-size: 14px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    font-size: 16px;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    font-size: 12px;
-                }
-                @media only screen and (min-width:976px) and (max-width:1200px){
-                    font-size: 12px;
-                }
             }
             .img-org1{
-                margin-top: 25%;
-                @media screen and (max-width:450px){
-                    height: 75px;
-                    width: 75px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    margin-top: 15%;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    margin-top: 70%;
-                }
-                
+                margin-top: 25%;             
             }
             &:hover>.img-org1{
                 margin-top: 5%;
-                transition: all 2s;
-                
+                transition: all 2s;      
             }
             &:hover>.p-ByS{
                 margin-top: 10px;
                 transition: all 2s;
                 display: initial;
             }
-            @media screen and (max-width:450px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;    
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;  
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                padding-bottom: 360px;
-            }
-            @media only screen and (min-width:976px) and (max-width:1200px){
-                padding-bottom: 310px;
-            }
         }
-        
         .div-org2{
             height: 280px;
             width: 20%;
             background-color: #FFCD58;
-            color: aliceblue;
-           
+            color: aliceblue;     
             .img-org2{
                 margin-top: 25%; 
-                @media screen and (max-width:450px){
-                    height: 75px;
-                    width: 75px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    margin-top: 15%;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    margin-top: 70%;
-                }
             }
             .p-evp{
                 display: none;
-                @media screen and (max-width:450px){
-                    font-size: 14px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    font-size: 16px;
-                }
-                @media only screen and (min-width:651px) and (max-width:975px){
-                    font-size: 12px;
-                }
-                @media only screen and (min-width:976px) and (max-width:1200px){
-                    font-size: 12px;
-                }
             }
             &:hover>.p-evp{
                 display: initial;
@@ -289,24 +125,6 @@
                 margin-top: 3%;
                 transition: all 2s;
             }
-            @media screen and (max-width:450px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;  
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                padding-bottom: 360px;
-            }
-            @media only screen and (min-width:976px) and (max-width:1200px){
-                padding-bottom: 310px;
-            }
         }
         .div-org3{
             height: 280px;
@@ -315,31 +133,9 @@
             color: aliceblue;
             .p-psc{
                 display: none;
-                @media screen and (max-width:450px){
-                    font-size: 14px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    font-size: 12px;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    font-size: 12px;
-                }
-                @media only screen and (min-width:976px) and (max-width:1200px){
-                    font-size: 12px;
-                }
             }
             .img-org3{
-                margin-top: 25%;  
-                @media screen and (max-width:450px){
-                    height: 75px;
-                    width: 75px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    margin-top: 20%;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    margin-top: 70%;
-                }
+                margin-top: 25%;
             }
             &:hover>.img-org3{
                 margin-top: 3%;
@@ -349,24 +145,6 @@
                 display: initial;
                 transition: all 2s;
             }
-            @media screen and (max-width:450px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;  
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                padding-bottom: 360px;
-            }
-            @media only screen and (min-width:976px) and (max-width:1200px){
-                padding-bottom: 310px;
-            }
         }
         .div-org4{
             height: 280px;
@@ -375,31 +153,9 @@
             color: aliceblue;
             .p-tm{
                 display: none;
-                @media screen and (max-width:450px){
-                    font-size: 14px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    font-size: 16px; 
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    font-size: 12px;
-                }
-                @media only screen and (min-width:976px) and (max-width:1200px){
-                    font-size: 12px;
-                }
             }
             .img-org4{
                 margin-top: 25%;  
-                @media screen and (max-width:450px){
-                    height: 75px;
-                    width: 75px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    margin-top: 20%;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    margin-top: 70%;
-                }
             }
             &:hover>.img-org4{
                 margin-top: 3%;
@@ -409,58 +165,17 @@
                 display: initial;
                 transition: all 2s;
             }
-            @media screen and (max-width:450px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                padding-bottom: 20px;  
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                padding-bottom: 360px;
-            }
-            @media only screen and (min-width:976px) and (max-width:1200px){
-                padding-bottom: 310px;
-            }
         }
         .div-org5{
             height: 280px;
             width: 20%;
             background-color: #75E6DA;
             color: aliceblue;
-            
             .p-cco{
                 display: none;
-                @media screen and (max-width:450px){
-                    font-size: 14px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    font-size: 16px;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    font-size: 12px;
-                }
-                @media only screen and (min-width:976px) and (max-width:1200px){
-                    font-size: 12px;
-                }
             }
             .img-org5{
                 margin-top: 25%;  
-                @media screen and (max-width:450px){
-                    height: 75px;
-                    width: 75px;
-                }
-                @media screen and (min-width:451px) and (max-width:650px){
-                    margin-top: 20%;
-                }
-                @media screen and (min-width:651px) and (max-width:975px){
-                    margin-top: 70%;
-                }
             }
             &:hover>.img-org5{
                 margin-top: 5%;
@@ -470,34 +185,14 @@
                 display: initial;
                 transition: all 2s;
             }
-        @media screen and (max-width:450px){
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        padding-bottom: 20px;
-        } 
-        @media screen and (min-width:451px) and (max-width:650px){
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            padding-bottom: 20px;  
-        }
-        @media screen and (min-width:651px) and (max-width:975px){
-            padding-bottom: 360px;
-        }
-        @media screen and (min-width:976px) and (max-width:1200px){
-            padding-bottom: 310px;
         }
     }
 }
-    @media screen and (max-width:450px){
-        margin-top: 0;
-    }
-}
-/*cambio personal*/
-
 /*desarrolo web y marketing*/
 .dym{
+    background-image:url(../imagenes/programacion.jpg);
+    background-size: cover;
+    padding: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -510,20 +205,14 @@
         align-items: center;
         text-align: center;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;    
         h4{
             color: aliceblue;
             margin-top: 10px;
-            @media screen and (max-width:450px) {
-                font-size: 16px;
-            }
+           
         }
         .img-m{
             margin-top: 25%;
-            @media screen and (max-width:450px) {
-                height: 60px;
-            }
         }
         .p-m{
             display: none;
@@ -532,9 +221,6 @@
             margin-left: 20px;
             margin-right: 20px;
             margin-top: 20px;
-            @media screen and (max-width:450px) {
-              font-size: 11px;
-            }
         }
         &:hover>.img-m{
             margin-top: 15%;
@@ -547,15 +233,6 @@
             display: initial;
             transition: all 2s;
         }
-        @media screen and (max-width:450px) {
-            height: 250px;
-            width: 250px;
-            margin-bottom: 15px;
-        }
-        @media screen and (min-width:451px) and (max-width:650px){
-           
-            margin-bottom: 25px;
-        } 
     }
     .div-d{
         height: 300px;
@@ -569,15 +246,9 @@
         h4{
             color: aliceblue;
             margin-top: 10px;
-            @media screen and (max-width:450px) {
-                font-size: 16px;
-            }
         }
         .img-d{
             margin-top: 25%;
-            @media screen and (max-width:450px) {
-                height: 60px;
-            }
         }
         .p-d{
             display: none;
@@ -585,9 +256,6 @@
             margin: 20px 20px 0 20px;
             color: aliceblue;
             font-weight: 700;
-            @media screen and (max-width:450px) {
-                font-size: 11px;
-            }
         }
         &:hover>h4{
             display: none;
@@ -600,18 +268,5 @@
             display: initial;
             transition: all 2s;
         }
-        @media screen and (max-width:450px) {
-            height: 250px;
-            width: 250px;
-            margin-bottom: 15px;
-        }
-    }
-    @media screen and (max-width:450px){
-        flex-direction: column;
-        margin: 50px;
-    }
-    @media screen and (min-width:451px) and (max-width:650px){
-        flex-direction: column;
-        margin: 50px;
     }
 }

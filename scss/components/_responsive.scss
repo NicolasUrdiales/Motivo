@@ -1,0 +1,793 @@
+/*media queries*/
+
+/* carrusel */
+.carrusel{
+    ul{
+        li{
+            img{
+                @media screen and (max-width:450px) {
+                    width: 100%;
+                    height: 160px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 450px) {
+        height: 160px;
+        width: 100%;
+        @keyframes cambio {
+            0% {
+                margin-left: 0;
+            }
+            25% {
+                margin-left: 0%;
+            }
+            30% {
+                margin-left: -150%;
+            }
+            75% {
+                margin-left: -150%;
+            }
+            80% {
+                margin-left: -300%;
+            }
+            100% {
+                margin-left: -300%;
+            }
+        }   
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        width: 100%;
+        height: 450px;
+    }
+}
+/*seccion nosotros*/
+.h2-container{
+    @media screen and (max-width:450px){
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    @media screen and (min-width:451px) and (max-width:650px) {
+        font-size: 35px;
+        margin: 70px 0 0 30px;
+    }
+}
+.div-nosotros{
+    .img-container{
+        .img-nosotros{
+            @media screen and (max-width:450px){
+                height: 90px;
+                margin-top: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 100px;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+        }
+        .p-name{
+            @media screen and (max-width:450px){
+                font-size: 17px;
+                margin: 10px 0 0;
+             }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 20px;
+                margin: 2px 24px 0 24px;
+            }
+            @media only screen and (min-width:651px) and (max-width:975px){
+                font-size: 30px;
+            }
+        }
+        .p-lic{
+            @media screen and (max-width:450px){
+                margin-top: 5px;
+                font-size: 15px; 
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 17px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 25px;
+            }
+        } 
+        .icn-link{
+            @media screen and (max-width:450px){
+                margin-top: 30px;
+            }    
+        }
+        @media screen and (max-width:450px){
+            margin-top: 0px;
+        }
+    }
+    .img-container2{
+        .img-nosotros{
+            @media screen and (max-width:450px){
+                height: 90px;
+                margin: 20px 20px 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 100px;
+                margin-top: 5px;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+        }
+        .p-name{
+            @media screen and (max-width:450px){
+                margin: 10px 0 3px 3px;
+                font-size: 17px; 
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 20px;
+                margin: 2px 24px 0 24px;
+                
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 30px;
+            }
+        }
+        .p-lic{
+            @media screen and (max-width:450px){
+                font-size: 15px; 
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 15px;
+                margin: 2px 24px 0 24px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width:450px){
+            margin-top: 0;
+        }
+    }
+    .img-container3{
+        .img-nosotros{
+            @media screen and (max-width:450px){
+                height: 90px;
+                margin: 20px 0 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 100px;
+                margin-top: 5px;
+            }
+        }
+        .p-name{
+            @media screen and (max-width:450px){
+                font-size: 17px; 
+                margin: 10px 0 3px 3px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 20px;
+                margin: 2px 24px 0 24px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 30px;
+            }
+        }
+        .p-lic{
+            @media screen and (max-width:450px){
+                font-size: 15px; 
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 17px;   
+                margin: 2px 24px 0 24px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 25px;
+            }
+        }
+        @media screen and (max-width:450px){
+            margin-top: 0;
+        }
+    }
+}
+/*Seccion servicios*/
+.h2-header--org{
+    @media screen and (max-width:450px){
+        font-size: 25px;
+        margin: 25px 75px;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        font-size: 35px;
+        margin: 10px 50px 0 50px;
+    }
+}
+.img-servicios {
+    @media screen and (max-width:450px){
+        height: 100px;
+    }
+}
+.div-personal{
+    .h2-personal{
+        @media screen and (max-width:450px){
+            font-size: 20px;
+            margin-top: 50px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+            margin: 100px 75px 0 75px;
+        }
+    }
+    .p-personal{
+        @media screen and (max-width:450px){
+            font-size: 14px;
+            margin: 15px 10px 15px 10px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 16px;
+            margin: 10px 20px 10px 20px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
+            margin: 10px 50px;
+            font-size: 25px;
+            font-weight: 10px;
+        }
+        @media screen and (min-width:976px) and (max-width:1200px){
+            margin: 10px 100px 0;
+        }
+    }
+    .div-img--bienestar{
+        .img-bienestar{
+            @media screen and (max-width:450px){
+                height: 300px;
+                margin-top: 10px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 450px;
+            }
+        }
+    }
+    .div-b{
+        .p-b{
+            @media screen and (max-width:450px){
+                font-size: 12px;
+                margin: 5px 15px 5px 15px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin: 5px 15px 5px 15px;
+            }
+        }
+        .p-b1{
+            @media screen and (max-width:450px){
+                font-size: 12px;
+                margin: 5px 10px 5px 10px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin: 5px 10px 5px 10px;
+            }
+        }
+        @media screen and (max-width:450px){
+            margin: 10px 1px;
+            padding: 20px;
+            grid-template-columns: repeat(1,1fr);
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            margin: 10px 1px;
+            padding: 20px;
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+    @media screen and (max-width:450px){
+        margin: 20px 10px;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        margin: 30px 15px;
+    }
+    @media screen and (min-width:651px) and (max-width:975px){
+        margin: 40px 20px;
+    }
+    @media screen and (min-width:976px) and (max-width:1200px){
+        margin: 50px 25px;
+    }
+}
+/*cambio organizacional*/
+.div-org{
+    .h2-org{
+        @media screen and (max-width:450px){
+            font-size: 16px;      
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+            margin: 0 75px 0 75px;
+        }
+    }
+    .p-org{
+        @media screen and (max-width:450px){
+            font-size: 14px;
+            margin: 10px 20px 10px 20px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 18px;
+            margin: 20px 10px 10px 10px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
+            margin: 10px 50px;
+            font-size: 25px;
+        }
+        @media only screen and (min-width:976px) and (max-width:1200px){
+            margin: 10px 100px 0;
+        }
+    }
+    .serv-container{
+        .div-org1{
+            .p-ByS{
+                @media screen and (max-width:450px){
+                    font-size: 14px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    font-size: 12px;
+                }
+                @media only screen and (min-width:976px) and (max-width:1200px){
+                    font-size: 12px;
+                }
+            }
+            .img-org1{
+                @media screen and (max-width:450px){
+                    height: 75px;
+                    width: 75px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 15%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    margin-top: 70%;
+                }
+            }
+            @media screen and (max-width:450px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;    
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                padding-bottom: 360px;
+            }
+            @media only screen and (min-width:976px) and (max-width:1200px){
+                padding-bottom: 310px;
+            }  
+        }
+        .div-org2{
+            .img-org2{
+                @media screen and (max-width:450px){
+                    height: 75px;
+                    width: 75px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 15%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    margin-top: 70%;
+                }
+            }
+            .p-evp{
+                @media screen and (max-width:450px){
+                    font-size: 14px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media only screen and (min-width:651px) and (max-width:975px){
+                    font-size: 12px;
+                }
+                @media only screen and (min-width:976px) and (max-width:1200px){
+                    font-size: 12px;
+                }
+            }
+            @media screen and (max-width:450px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                padding-bottom: 360px;
+            }
+            @media only screen and (min-width:976px) and (max-width:1200px){
+                padding-bottom: 310px;
+            }
+        }
+        .div-org3{
+            .p-psc{
+                @media screen and (max-width:450px){
+                    font-size: 14px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 12px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    font-size: 12px;
+                }
+                @media only screen and (min-width:976px) and (max-width:1200px){
+                    font-size: 12px;
+                }
+            }
+            .img-org3{
+                @media screen and (max-width:450px){
+                    height: 75px;
+                    width: 75px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    margin-top: 70%;
+                }
+            }
+            @media screen and (max-width:450px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                padding-bottom: 360px;
+            }
+            @media only screen and (min-width:976px) and (max-width:1200px){
+                padding-bottom: 310px;
+            }  
+        }
+        .div-org4{
+            .p-tm{
+                @media screen and (max-width:450px){
+                    font-size: 14px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px; 
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    font-size: 12px;
+                }
+                @media only screen and (min-width:976px) and (max-width:1200px){
+                    font-size: 12px;
+                }
+            }
+            .img-org4{
+                @media screen and (max-width:450px){
+                    height: 75px;
+                    width: 75px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    margin-top: 70%;
+                }
+            }
+            @media screen and (max-width:450px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                padding-bottom: 360px;
+            }
+            @media only screen and (min-width:976px) and (max-width:1200px){
+                padding-bottom: 310px;
+            }
+        }
+        .div-org5{
+            .p-cco{
+                @media screen and (max-width:450px){
+                    font-size: 14px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    font-size: 16px;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    font-size: 12px;
+                }
+                @media only screen and (min-width:976px) and (max-width:1200px){
+                    font-size: 12px;
+                }
+            }
+            .img-org5{
+                @media screen and (max-width:450px){
+                    height: 75px;
+                    width: 75px;
+                }
+                @media screen and (min-width:451px) and (max-width:650px){
+                    margin-top: 20%;
+                }
+                @media screen and (min-width:651px) and (max-width:975px){
+                    margin-top: 70%;
+                }
+            }
+            @media screen and (max-width:450px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;
+            } 
+            @media screen and (min-width:451px) and (max-width:650px){
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                padding-bottom: 20px;  
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                padding-bottom: 360px;
+            }
+            @media screen and (min-width:976px) and (max-width:1200px){
+                padding-bottom: 310px;
+            }
+        }
+    @media screen and (max-width:450px){
+        display: grid;
+        grid-template-columns: 1;
+        grid-auto-rows: 300px;
+        padding: 0;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        display: grid;
+        grid-template-columns: 1;
+        grid-auto-rows: 300px;
+        padding: 0;
+        }
+    }
+    @media screen and (max-width:450px){
+        margin-top: 0;
+    }
+}
+/* div imagen */
+.div-img-progra{
+    .img-progra{
+        @media screen and (max-width:450px){
+            margin-top: 50px;
+            height: 525px;
+        }
+    }
+}
+/*desarrolo web y marketing*/
+.dym{
+    .div-m{
+        h4{
+            @media screen and (max-width:450px){
+                font-size: 16px;
+            }
+        }
+        .img-m{
+            @media screen and (max-width:450px) {
+                height: 60px;
+            }
+        }
+        .p-m{
+            @media screen and (max-width:450px) {
+                font-size: 11px;
+            }
+        }
+        @media screen and (max-width:450px) {
+            height: 250px;
+            width: 250px;
+            margin-bottom: 15px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){       
+            margin-bottom: 25px;
+        } 
+    }
+    .div-d{
+        h4{
+            @media screen and (max-width:450px) {
+                font-size: 16px;
+            }
+        }
+        .img-d{
+            @media screen and (max-width:450px) {
+                height: 60px;
+            }
+        }
+        .p-d{
+            @media screen and (max-width:450px) {
+                font-size: 11px;
+            }
+        }
+        @media screen and (max-width:450px) {
+            height: 250px;
+            width: 250px;
+            margin-bottom: 15px;
+        }
+    }
+    @media screen and (max-width:450px){
+        flex-direction: column;
+        
+        margin-top: 35px;
+        width: 100%;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        flex-direction: column;
+        margin: 50px;
+    }
+}
+/*seccion clientes*/
+.h2-cl{
+    @media screen and (max-width:450px){
+        font-size: 25px;
+        margin: 50px  75px ;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 50px 0 50px;
+    }
+}
+.slider{
+    img{
+        @media screen and (max-width:450px){
+            height: 275px;
+            width: 100%;
+        }
+        @media screen and (min-width:650px) and (max-width:975px){
+           width: 80%;
+        }
+    }
+    @media screen and (max-width:450px){
+        height: 275px;
+        width: 100%;
+    }
+    @media screen and (min-width:650px) and (max-width:975px){
+        width: 80%;
+     }
+}
+/*seccion contacto*/
+.contacto-container{
+    .div-contacto{
+        .h2-contacto{
+            @media screen and (max-width:450px){
+                font-size: 25px;
+            }
+            @media screen and (min-width:451px) and (max-width:975px){
+                font-size: 30px;
+            }
+            @media screen and (min-width:651px) and (max-width:975px){
+                font-size: 35px;
+            }
+        }
+        .h3-contacto{
+            @media screen and (max-width:450px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size:25px;
+            }
+        }
+        .h4-contacto{
+            @media screen and (max-width:450px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size:  20px;
+            }
+        }
+        @media screen and (max-width:450px){
+            padding-right: 50px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            padding-right: 60px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
+            padding-right: 200px;
+        }
+    }
+    .redes-container{
+        .h2-redes{
+            @media screen and (max-width:450px){
+                margin-top: 60px;
+                font-size: 25px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                margin-top: 70px;
+                font-size: 30px;
+            }
+        }
+        .div-redes{
+            @media screen and (max-width:450px){
+                margin-top: 45px;
+                font-size: 35px;
+                row-gap: 15px;
+                column-gap: 45px;
+            }
+        }
+        .img-contacto{
+            @media screen and (max-width:450px){
+                height: 25px;
+                
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                height: 35px;
+            }
+        }
+        @media screen and (max-width:450px){
+            margin-top: 0;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            height: 15px;
+           margin-top: 6px;
+        }
+    }
+    @media screen and (max-width:450px){
+        height: 330px;
+        padding-bottom: 0;
+    }
+    @media screen and (min-width:451px) and (max-width:650px){
+        height: 425px;
+    }
+}
+/*footer*/
+.footer{
+    .div-secciones{
+        .a-footer{
+            @media screen and (max-width:450px){
+                font-size: 15px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 15px;
+            }
+        }
+    }
+    .h2-footer{
+        @media screen and (max-width:450px){
+        font-size: 15px;
+        }
+        @media screen and (min-width:451px) and (max-width:650px){
+            font-size: 25px;
+        }
+        @media screen and (min-width:651px) and (max-width:975px){
+            font-size: 30px;
+        }
+    }
+    .f-dym{
+        h4{
+            @media screen and (max-width:450px){
+                font-size: 15px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 20px;
+            }
+        }
+        h5{
+            @media screen and (max-width:450px){
+                font-size: 12px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 16px;
+            }
+        }
+        h6{
+            @media screen and (max-width:450px){
+                font-size: 12px;
+            }
+            @media screen and (min-width:451px) and (max-width:650px){
+                font-size: 16px;
+            }
+        }
+    }
+}

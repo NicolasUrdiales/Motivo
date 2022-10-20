@@ -5,14 +5,6 @@
     text-align: center;
     color: #05445E;
     margin-top: 100px;
-    @media screen and (max-width:450px){
-        font-size: 25px;
-        margin-top: 40px;
-    }
-    @media screen and (min-width:451px) and (max-width:650px) {
-        font-size: 35px;
-        margin: 70px 0 0 30px;
-    }
 }
 .div-nosotros{
     font-size: 35px;
@@ -29,44 +21,14 @@
             height: 200px;
             border-radius: 50%;
             margin: 50px 0 20px;
-            @media screen and (max-width:450px){
-                height: 90px;
-                margin-top: 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                height: 100px;
-                margin-top: 5px;
-                margin-left: 5px;
-            }
         }
         .p-name{
             margin: 10px 0 3px;
             font-size: 25px;
             font-weight: 900;
-            @media screen and (max-width:450px){
-               font-size: 17px;
-               margin: 10px 0 0;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 20px;
-                margin: 2px 24px 0 24px;
-            }
-            @media only screen and (min-width:651px) and (max-width:975px){
-                font-size: 30px;
-            }
         }
         .p-lic{
             font-size: 15px;
-            @media screen and (max-width:450px){
-                margin-top: 5px;
-                font-size: 15px; 
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 17px;
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                font-size: 25px;
-            }
         }
         .icn-link{
             margin-top: 10px;
@@ -76,12 +38,6 @@
             &:hover{
                 background-color: #75E6DA;
             }
-            @media screen and (max-width:450px){
-                margin-top: 30px;
-            }    
-        }
-        @media screen and (max-width:450px){
-            margin-top: 0px;
         }
     }
     .img-container2{
@@ -91,46 +47,14 @@
             height: 200px;
             border-radius: 50%;
             margin: 50px 0 20px;
-            @media screen and (max-width:450px){
-                height: 90px;
-                margin: 20px 20px 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                height: 100px;
-                margin-top: 5px;
-                margin-right: 20px;
-                margin-left: 20px;
-            }
         }
         .p-name{
             margin: 10px 0 3px;
             font-size: 25px;
             font-weight: 900;
-            @media screen and (max-width:450px){
-                margin: 10px 0 3px 3px;
-                font-size: 17px; 
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 20px;
-                margin: 2px 24px 0 24px;
-                
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                font-size: 30px;
-            }
         }
         .p-lic{
             font-size: 15px;
-            @media screen and (max-width:450px){
-                font-size: 15px; 
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 15px;
-                margin: 2px 24px 0 24px;
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                font-size: 25px;
-            }
         }
         .icn-link{
             margin-top: 10px;
@@ -141,9 +65,6 @@
                 background-color: #75E6DA;
             }
         } 
-        @media screen and (max-width:450px){
-            margin-top: 0;
-        }
     }
     .img-container3{
         grid-column: 3;
@@ -152,43 +73,14 @@
             height: 200px;
             border-radius: 50%;
             margin: 50px 0 20px;
-            @media screen and (max-width:450px){
-                height: 90px;
-                margin: 20px 0 20px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                height: 100px;
-                margin-top: 5px;
-            }
         }
         .p-name{
             margin: 10px 0 3px;
             font-size: 25px;
             font-weight: 900;
-            @media screen and (max-width:450px){
-                font-size: 17px; 
-                margin: 10px 0 3px 3px;
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 20px;
-                margin: 2px 24px 0 24px;
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                font-size: 30px;
-            }
         }
         .p-lic{
             font-size: 15px;
-             @media screen and (max-width:450px){
-                font-size: 15px; 
-            }
-            @media screen and (min-width:451px) and (max-width:650px){
-                font-size: 17px;   
-                margin: 2px 24px 0 24px;
-            }
-            @media screen and (min-width:651px) and (max-width:975px){
-                font-size: 25px;
-            }
         }
         .icn-link{
             margin-top: 10px;
@@ -198,9 +90,6 @@
             &:hover{
                 background-color: #75E6DA;
             }
-        }
-        @media screen and (max-width:450px){
-            margin-top: 0;
         }
     }
 }
